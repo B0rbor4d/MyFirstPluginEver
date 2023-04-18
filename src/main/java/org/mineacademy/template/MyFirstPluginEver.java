@@ -38,7 +38,7 @@ public final class MyFirstPluginEver extends SimplePlugin {
 	 */
 	@EventHandler
 	public void onRightClick(PlayerInteractEntityEvent event) {
-		if (event.getRightClicked().getType() == EntityType.SPIDER)
+		if (event.getRightClicked().getType() == EntityType.DONKEY)
 			event.getRightClicked().getWorld().createExplosion(event.getRightClicked().getLocation(), 5);
 	}
 
